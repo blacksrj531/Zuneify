@@ -1,4 +1,4 @@
-# ZUNEIFY-An Ultimate Revival (The best PROJECT of mu lifetime ever) 
+# ZUNEIFY-An Ultimate Revival (The best PROJECT of my lifetime ever) 
 Always wanted to build something for Microsoft & Revive that old Zune Players & Lumia Phones💕 Now its all happening slowly as my Brain wanting for some nostalgia. 
 
 **Media, fundamentally reimagined.**
