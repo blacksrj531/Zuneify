@@ -118,10 +118,6 @@ Read the complete [Privacy Policy](PRIVACY_POLICY.md).
 
 ---
 
-## ⚖️ License & Intellectual Property Notice
-
-This program is free software: you can redistribute it and/or modify it under the terms of the **[GNU General Public License v3.0 (GPLv3)](LICENSE)** as published by the Free Software Foundation.
-
-### Fair Use & Trademark Disclaimer
-- **Zune & Windows Phone Metro**: "Zune", "Windows Phone", "Metro UI", and associated visual motifs are registered trademarks of Microsoft Corporation. This project is a non-profit, fan-made tribute created strictly for educational, historical, and preservation purposes. It is neither affiliated with, endorsed by, nor sponsored by Microsoft Corporation.
+## Fair Use & Trademark Disclaimer
+- **Zune & Windows Phone Metro**: "Zune", "Windows Phone", "Metro UI", and associated visual motifs are registered trademarks of Microsoft Corporation. This project is fan-made tribute created strictly for small earrings, educational, historical, and preservation purposes. It is neither affiliated with, endorsed by, nor sponsored by Microsoft Corporation.
 - **Segoe UI Fonts**: Microsoft Segoe UI font assets are the intellectual property of Microsoft Corporation and are bundled strictly for non-commercial aesthetic authenticity.
