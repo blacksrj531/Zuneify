@@ -55,7 +55,7 @@ Zuneify is built on a 2026 reactive Jetpack Compose architecture and native C++1
 ```
 
 - **30-Second RAM Scrubber Backbuffer:** Standard players flush memory and read from flash storage every time you scrub backward. Zuneify configures a 30,000ms forward and backward RAM backbuffer (`DefaultLoadControl`), making scrubbing back and forth instantaneous and completely non-blocking.
-- **Hardware-Accelerated 120Hz Animation Physics:** While legacy apps use standard scrolling lists, Zuneify implements custom kinetic physics: horizontal panoramic marquee headers, friction-weighted flings, and smooth pivot transitions that look hyper-responsive on 90Hz, 120Hz, and 144Hz OLED displays.
+- **Hardware-Accelerated 120Hz Animation Physics:** While legacy apps use standard scrolling lists, Zuneify implements custom kinetic physics: horizontal headers, friction-weighted flings, and smooth pivot transitions that look hyper-responsive on 90Hz, 120Hz, and 144Hz OLED displays.
 - **Unified Cross-OEM Typography:** Eliminates vendor font fragmentation (Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS, Nothing OS). By bundling authentic `Segoe UI Light`, `Semilight`, `Regular`, and `Bold` inside the APK, Zuneify renders identical, pixel-perfect typography on every single Android device.
 - **Zero-Latency State Synchronization:** Powered by Kotlin StateFlows and asynchronous coroutines across `PlaybackService.kt`. Audio playback, notification media sessions, Android Auto vehicle dashboards, and lock screen widgets update concurrently with 0ms visual lag.
 
