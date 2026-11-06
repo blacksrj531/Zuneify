@@ -41,9 +41,9 @@ Zuneify is built on a 2026 reactive Jetpack Compose architecture and native C++1
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        ZUNEIFY SYSTEM TOPOLOGY                         │
 ├────────────────────────────────┬───────────────────────────────────────┤
-│    Authentic Metro Frontend    │ • 120Hz Kinetic Panoramic Navigation  │
+│    Authentic Metro Frontend    │ • 120Hz Smooth Navigation  │
 │    (Windows Phone Heritage)    │ • Bundled Microsoft Segoe UI Family   │
-├────────────────────────────────┼───────────────────────────────────────┤
+├────────────────────────────────┼─────────────────────────────────────┤
 │    High-Performance Media      │ • Chained EBML SeekHead Resolver      │
 │         Pipeline Core          │ • 30s Uncompressed RAM Backbuffer     │
 │                                │ • 10-Band Studio DSP Equalizer        │
