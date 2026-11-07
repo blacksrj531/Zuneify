@@ -41,9 +41,9 @@ Zuneify is built on a 2026 reactive Jetpack Compose architecture and native C++1
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        ZUNEIFY SYSTEM TOPOLOGY                         │
 ├────────────────────────────────┬───────────────────────────────────────┤
-│    Authentic Metro Frontend    │ • 120Hz Smooth Navigation  │
-│    (Windows Phone Heritage)    │ • Bundled Microsoft Segoe UI Family   │
-├────────────────────────────────┼─────────────────────────────────────┤
+│    Authentic Metro Frontend    │ • 120Hz Horizontal Navigation         │
+│    (Windows Phone Heritage)    │ • Blacksrj531 UIDisplay Font Family   │
+├────────────────────────────────┼───────────────────────────────────────┤
 │    High-Performance Media      │ • Chained EBML SeekHead Resolver      │
 │         Pipeline Core          │ • 30s Uncompressed RAM Backbuffer     │
 │                                │ • 10-Band Studio DSP Equalizer        │
@@ -55,8 +55,8 @@ Zuneify is built on a 2026 reactive Jetpack Compose architecture and native C++1
 ```
 
 - **30-Second RAM Scrubber Backbuffer:** Standard players flush memory and read from flash storage every time you scrub backward. Zuneify configures a 30,000ms forward and backward RAM backbuffer (`DefaultLoadControl`), making scrubbing back and forth instantaneous and completely non-blocking.
-- **Hardware-Accelerated 120Hz Animation Physics:** While legacy apps use standard scrolling lists, Zuneify implements custom kinetic physics: horizontal headers, friction-weighted flings, and smooth pivot transitions that look hyper-responsive on 90Hz, 120Hz, and 144Hz OLED displays.
-- **Unified Cross-OEM Typography:** Eliminates vendor font fragmentation (Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS, Nothing OS). By bundling authentic `Segoe UI Light`, `Semilight`, `Regular`, and `Bold` inside the APK, Zuneify renders identical, pixel-perfect typography on every single Android device.
+- **Hardware-Accelerated 120Hz Animation Physics:** While legacy apps use standard scrolling lists, Zuneify implements custom kinetic physics: horizontal panoramic marquee headers, friction-weighted flings, and smooth pivot transitions that look hyper-responsive on 90Hz, 120Hz, and 144Hz OLED displays.
+- **Unified Cross-OEM Typography (Blacksrj531 UIDisplay):** Eliminates vendor font fragmentation (Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS, Nothing OS). By bundling your custom-designed `Blacksrj531 UIDisplay` font family (`Light`, `Semilight`, `Regular`, and `Bold`) inside the APK, Zuneify renders a 100% original, copyright-clean, pixel-perfect Metro typography experience on every single Android device.
 - **Zero-Latency State Synchronization:** Powered by Kotlin StateFlows and asynchronous coroutines across `PlaybackService.kt`. Audio playback, notification media sessions, Android Auto vehicle dashboards, and lock screen widgets update concurrently with 0ms visual lag.
 
 ---
@@ -70,7 +70,7 @@ Zuneify unites the best of both worlds and pushes beyond them:
 | Architectural Vector | Original Microsoft Zune (2006–2011) | Modern Android Players (VLC, MX, Poweramp) | **Zuneify (2026)** |
 | :--- | :--- | :--- | :--- |
 | **Container & Codec Freedom** | Restricted to WMV, WMA, MP3, MP4. Required desktop software to convert files. | Wide codec support, but frequently resets seeking on chained MKV movies. | **Universal MKV, MP4, WebM, FLAC, OGG, MP3** with built-in custom EBML cue-index injection. 100% standalone. |
-| **Typography & Visual Polish** | Restricted to 480x272 low-resolution screens. | Cluttered Material Design or iOS clones; mismatched OEM fonts; jarring banner ads. | **Authentic Segoe UI typography** with seamless horizontal Navigation, scaled up to 4K Ultra HD. |
+| **Typography & Visual Polish** | Restricted to 480x272 low-resolution screens. | Cluttered Material Design or iOS clones; mismatched OEM fonts; jarring banner ads. | **Signature Blacksrj531 UIDisplay** with seamless horizontal swipe, scaled cleanly up to 4K Ultra HD. |
 | **True Screen Rotation Lock** | None (hardware was locked in portrait). | Touch lock only; tilting your phone still flips screen orientation. | **True Hardware Subsystem Lock (`SCREEN_ORIENTATION_LOCKED`)** with 3-state switcher. |
 | **Hardware RAM Scrubbing** | Limited by 64MB device RAM; heavy disk reading. | Buffers only forward; seeking backward causes re-buffering spinners. | **Dual 30-Second RAM Backbuffer** for zero-latency bidirectional timeline scrubbing. |
 | **Subsystem Security & Privacy** | Closed-source proprietary firmware. | Third-party analytics SDKs, advertising trackers, and telemetry services. | **100% Zero-Telemetry, No WebViews, Stripped C++ symbols, and SHA-256 Anti-Tamper Pinning.** |
@@ -118,6 +118,10 @@ Read the complete [Privacy Policy](PRIVACY_POLICY.md).
 
 ---
 
-## Fair Use & Trademark Disclaimer
-- **Zune & Windows Phone Metro**: "Zune", "Windows Phone", "Metro UI", and associated visual motifs are registered trademarks of Microsoft Corporation. This project is fan-made tribute created strictly for small earrings, educational, historical, and preservation purposes. It is neither affiliated with, endorsed by, nor sponsored by Microsoft Corporation.
-- **Segoe UI Fonts**: Microsoft Segoe UI font assets are the intellectual property of Microsoft Corporation and are bundled strictly for non-commercial aesthetic authenticity.
+## ⚖️ License & Intellectual Property Notice
+
+This program is free software: you can redistribute it and/or modify it under the terms of the **[GNU General Public License v3.0 (GPLv3)](LICENSE)** as published by the Free Software Foundation.
+
+### Fair Use & Trademark Disclaimer
+- **Zune & Windows Phone Metro**: "Zune", "Windows Phone", "Metro UI", and associated visual motifs are registered trademarks of Microsoft Corporation. This project is a non-profit, fan-made tribute created strictly for educational, historical, and preservation purposes. It is neither affiliated with, endorsed by, nor sponsored by Microsoft Corporation.
+- **Typography & Branding**: Features the custom-crafted `Blacksrj531 UIDisplay` font family created and owned by the project author, ensuring complete originality and full open-source copyright compliance.
