@@ -40,11 +40,6 @@ Zuneify requests only the minimal set of permissions required to deliver local m
 
 ---
 
-### 5. Open Source & Transparency
-Zuneify is free and open-source software licensed under the [GNU General Public License v3.0 (GPLv3)](LICENSE). Anyone can inspect the complete source code to independently audit our security and privacy practices.
-
----
-
 ### 6. Contact & Support
 If you have questions, feedback, or security vulnerability reports regarding Zuneify:
 - **GitHub Issues:** Submit an issue directly on the official repository.
